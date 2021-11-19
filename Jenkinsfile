@@ -5,7 +5,7 @@
 Pipelines {
     repositoryName = 'boosttest_project'
     cmakeBuildDir = 'build'
-    dockerImage = 'csw-docker-registry/boosttest_project'
+    dockerImage = 'csw-docker-registry/boosttest-project'
     dockerRegistryUrl = 'https://airfcms.jfrog.io/'
     artifactoryGenericRegistry_ID = 'artifactory_generic_repository'
     //Version for deploy
