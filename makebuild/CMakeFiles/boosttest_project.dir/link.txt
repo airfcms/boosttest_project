@@ -1,0 +1,2 @@
+/usr/bin/ar qc libboosttest_project.a  CMakeFiles/boosttest_project.dir/src/component1.cc.o
+/usr/bin/ranlib libboosttest_project.a

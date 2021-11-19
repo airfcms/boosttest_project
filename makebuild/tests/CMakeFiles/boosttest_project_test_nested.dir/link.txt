@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/boosttest_project_test_nested.dir/unittests/test_nested.cc.o  -o boosttest_project_test_nested  -lboost_filesystem -lboost_log -lboost_unit_test_framework -lboost_system -lpthread -ldl 

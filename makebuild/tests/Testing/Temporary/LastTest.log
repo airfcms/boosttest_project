@@ -1,0 +1,93 @@
+Start testing: Nov 19 16:48 WET
+----------------------------------------------------------
+1/5 Testing: boosttest_project_test_success
+1/5 Test: boosttest_project_test_success
+Command: "/home/tjmartins/GIT/boosttest_project/makebuild/tests/boosttest_project_test_success" "--logger=JUNIT,test_suite,btest_test_success_report.xml"
+Directory: /home/tjmartins/GIT/boosttest_project/makebuild
+"boosttest_project_test_success" start time: Nov 19 16:48 WET
+Output:
+----------------------------------------------------------
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"boosttest_project_test_success" end time: Nov 19 16:48 WET
+"boosttest_project_test_success" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: boosttest_project_test_simple
+2/5 Test: boosttest_project_test_simple
+Command: "/home/tjmartins/GIT/boosttest_project/makebuild/tests/boosttest_project_test_simple" "--logger=JUNIT,test_suite,test_suite,btest_test_simple_report.xml"
+Directory: /home/tjmartins/GIT/boosttest_project/makebuild
+"boosttest_project_test_simple" start time: Nov 19 16:48 WET
+Output:
+----------------------------------------------------------
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"boosttest_project_test_simple" end time: Nov 19 16:48 WET
+"boosttest_project_test_simple" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: boosttest_project_test_nested
+3/5 Test: boosttest_project_test_nested
+Command: "/home/tjmartins/GIT/boosttest_project/makebuild/tests/boosttest_project_test_nested" "--logger=JUNIT,test_suite,btest_test_nested_report.xml"
+Directory: /home/tjmartins/GIT/boosttest_project/makebuild
+"boosttest_project_test_nested" start time: Nov 19 16:48 WET
+Output:
+----------------------------------------------------------
+
+[1;31;49m*** 4 failures are detected in the test module "Master Test Suite"
+[0;39;49m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"boosttest_project_test_nested" end time: Nov 19 16:48 WET
+"boosttest_project_test_nested" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: boosttest_project_test_failure
+4/5 Test: boosttest_project_test_failure
+Command: "/home/tjmartins/GIT/boosttest_project/makebuild/tests/boosttest_project_test_failure" "--logger=JUNIT,test_suite,btest_test_failure_report.xml"
+Directory: /home/tjmartins/GIT/boosttest_project/makebuild
+"boosttest_project_test_failure" start time: Nov 19 16:48 WET
+Output:
+----------------------------------------------------------
+
+[1;31;49m*** 7 failures are detected in the test module "my_module"
+[0;39;49m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"boosttest_project_test_failure" end time: Nov 19 16:48 WET
+"boosttest_project_test_failure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: boosttest_project_test_component1
+5/5 Test: boosttest_project_test_component1
+Command: "/home/tjmartins/GIT/boosttest_project/makebuild/tests/boosttest_project_test_component1" "--logger=JUNIT,test_suite,btest_test_failure_report.xml"
+Directory: /home/tjmartins/GIT/boosttest_project/makebuild
+"boosttest_project_test_component1" start time: Nov 19 16:48 WET
+Output:
+----------------------------------------------------------
+
+[1;31;49m*** 2 failures are detected in the test module "my_module"
+[0;39;49m
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Failed.
+"boosttest_project_test_component1" end time: Nov 19 16:48 WET
+"boosttest_project_test_component1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 19 16:48 WET

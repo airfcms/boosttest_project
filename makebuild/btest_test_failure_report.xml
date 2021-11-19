@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="3" skipped="0" errors="1" failures="1" id="0" name="my_module" time="0.051137">
+<testcase assertions="1" name="foo_successfull" time="0.050647">
+<system-out><![CDATA[INFO:
+- file   : test_component1.cc
+- line   : 15
+- message: check bar.foo() == 111 has passed
+
+]]></system-out>
+</testcase>
+<testcase assertions="1" name="foo_failing" time="0.000238">
+<failure message="failure" type="assertion error"><![CDATA[
+ASSERTION FAILURE:
+- file   : test_component1.cc
+- line   : 19
+- message: check bar.foo() == 112 has failed [111 != 112]
+
+]]></failure><system-err><![CDATA[Failures detected in:
+- test case: foo_failing
+- file: test_component1.cc
+- line: 18
+]]></system-err>
+</testcase>
+<testcase assertions="1" name="foo_throwing" time="0.000221">
+<error message="unexpected exception" type="uncaught exception"><![CDATA[
+UNCAUGHT EXCEPTION:
+- file: unknown location
+- line: 0
+
+
+EXCEPTION STACK TRACE: --------------
+C string: BOOM
+-------------------------------------
+
+Last checkpoint:
+- message: ""foo_throwing" test entry"
+- file: test_component1.cc
+- line: 22
+]]></error><system-err><![CDATA[Failures detected in:
+- test case: foo_throwing
+- file: test_component1.cc
+- line: 22
+]]></system-err>
+</testcase>
+</testsuite>

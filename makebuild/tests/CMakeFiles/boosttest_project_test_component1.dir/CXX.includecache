@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tjmartins/GIT/boosttest_project/src/component1.cc
+component1.hh
+/home/tjmartins/GIT/boosttest_project/src/component1.hh
+
+/home/tjmartins/GIT/boosttest_project/src/component1.hh
+

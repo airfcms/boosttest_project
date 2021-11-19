@@ -1,7 +1,7 @@
 #include "stdafx.hh"
 
 #define BOOST_TEST_MODULE my_module
-#include <boost/test/unit_test.hpp>
+#include <boost/test/included/unit_test.hpp>
 
 #include <component1.hh>
 

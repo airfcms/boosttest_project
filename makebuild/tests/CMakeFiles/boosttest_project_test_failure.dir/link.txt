@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/boosttest_project_test_failure.dir/unittests/test_failure.cc.o  -o boosttest_project_test_failure  -lboost_filesystem -lboost_log -lboost_unit_test_framework -lboost_system -lpthread -ldl 

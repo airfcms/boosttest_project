@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="1" skipped="0" errors="0" failures="0" id="0" name="my_module" time="0.00016">
+<testcase assertions="1" name="my_test" time="0.000152">
+<system-out><![CDATA[INFO:
+- file   : test_simple.cc
+- line   : 10
+- message: check add(2, 2) == 4 has passed
+
+]]></system-out>
+</testcase>
+</testsuite>

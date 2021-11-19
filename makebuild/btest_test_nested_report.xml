@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="4" skipped="0" errors="4" failures="0" id="0" name="Master_Test_Suite" time="0.00119">
+<testcase assertions="1" name="WithoutSuite" time="0.000596">
+<failure message="failure" type="fatal error"><![CDATA[
+ASSERTION FAILURE:
+- file   : test_nested.cc
+- line   : 8
+- message: critical check false has failed
+
+]]></failure><system-err><![CDATA[Failures detected in:
+- test case: WithoutSuite
+- file: test_nested.cc
+- line: 6
+]]></system-err>
+</testcase>
+<testcase assertions="1" classname="FirstLevel" name="OnFirstLevel" time="0.000201">
+<failure message="failure" type="fatal error"><![CDATA[
+ASSERTION FAILURE:
+- file   : test_nested.cc
+- line   : 15
+- message: critical check false has failed
+
+]]></failure><system-err><![CDATA[Failures detected in:
+- test case: FirstLevel/OnFirstLevel
+- file: test_nested.cc
+- line: 13
+]]></system-err>
+</testcase>
+<testcase assertions="1" classname="FirstLevel.SecondLevel" name="OnSecondLevel" time="0.000195">
+<failure message="failure" type="fatal error"><![CDATA[
+ASSERTION FAILURE:
+- file   : test_nested.cc
+- line   : 22
+- message: critical check false has failed
+
+]]></failure><system-err><![CDATA[Failures detected in:
+- test case: FirstLevel/SecondLevel/OnSecondLevel
+- file: test_nested.cc
+- line: 20
+]]></system-err>
+</testcase>
+<testcase assertions="1" classname="FirstLevel.SecondLevel.ThirdLevel" name="OnThirdLevel" time="0.000128">
+<failure message="failure" type="fatal error"><![CDATA[
+ASSERTION FAILURE:
+- file   : test_nested.cc
+- line   : 29
+- message: critical check false has failed
+
+]]></failure><system-err><![CDATA[Failures detected in:
+- test case: FirstLevel/SecondLevel/ThirdLevel/OnThirdLevel
+- file: test_nested.cc
+- line: 27
+]]></system-err>
+</testcase>
+</testsuite>
